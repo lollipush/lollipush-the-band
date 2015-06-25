@@ -5,4 +5,4 @@ clanchun: drumer
 
 cadl: bassist
 
-monster: Guitarist
+monster: guitarist
