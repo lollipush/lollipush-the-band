@@ -2,11 +2,31 @@
 <html>
     <head>
         <style>
-            html, body {height: 100%;}
-            .main {background-image: url(oasis.jpg); height: 80%; margin: 0 auto;}
+         @font-face {
+             font-family: 'Rock Salt';
+             font-style: normal;
+             font-weight: 400;
+             src: local('Rock Salt'), local('RockSalt'), url(rock-salt.woff2) format('woff2'), url(rock-salt.woff) format('woff');
+         }
+
+         a {text-decoration: none; color: black;}
+         a:hover {color: white; background-color: black;}
+         .band {text-align: center;}
+         .main {max-width: 800px; margin: 0 auto; font-family: 'Rock Salt', cursive;}
+         .grid {display: flex;}
+         .grid-cell {flex: 1; text-align: center;}
+         .banner {width: 100%;}
         </style>
     </head>
-  <body>
-      <div class="main"></div>
-  </body>
+    <body>
+        <div class="main">
+            <h1 class="band">lollipush</h1>
+            <div class="grid">
+                <a class="grid-cell" href="member.html">member</a>
+                <a class="grid-cell" href="about.html">about</a>
+                <a class="grid-cell" href="http://blog.lollipush.com" target="_blank">blog</a>
+            </div>
+            <img class="banner" src="oasis.jpg">
+        </div>
+    </body>
 </html>
