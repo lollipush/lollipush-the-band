@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>lollipush</title>
         <style>
          @font-face {
              font-family: 'Rock Salt';
@@ -17,6 +16,8 @@
          .grid {display: flex;}
          .grid-cell {flex: 1; text-align: center;}
          .banner {width: 100%;}
+         .round-head {width: 240px; height: 240px; border-radius: 120px; -moz-border-radius: 120px;}
+         .block {display: block}
          .nav {margin-bottom: 20px;}
         </style>
     </head>
@@ -28,7 +29,23 @@
                 <a class="grid-cell" href="member.html">members</a>
                 <a class="grid-cell" href="http://blog.lollipush.com" target="_blank">blog</a>
             </div>
-            <img class="banner" src="oasis.jpg">
+            <div class="grid">
+                <div class="grid-cell">
+                    <img src="monster.jpg" class="round-head">
+                    <a class="block" href="https://github.com/monstersb" target="_blank">monster</a>
+                    <p>guitarist</p>
+                </div>
+                <div class="grid-cell">
+                    <img src="clanchun.jpg" class="round-head">
+                    <a class="block" href="https://github.com/clanchun" target="_blank">clanchun</a>
+                    <p>drumer</p>
+                </div>
+                <div class="grid-cell">
+                    <img src="cadl.jpg" class="round-head">
+                    <a class="block" href="https://github.com/cadl" target="_blank">cadl</a>
+                    <p>bassist</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
